@@ -1,0 +1,28 @@
+schema:
+  name: entity
+  version: "1.0"
+
+required:
+
+  - name
+  - description
+
+properties:
+
+  name:
+    type: string
+
+  description:
+    type: string
+
+  responsibility:
+    type: string
+
+  relationships:
+    type: array
+
+  business_rules:
+    type: array
+
+  location:
+    type: string

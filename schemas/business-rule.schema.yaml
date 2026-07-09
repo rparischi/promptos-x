@@ -1,0 +1,28 @@
+schema:
+  name: business-rule
+  version: "1.0"
+
+required:
+
+  - id
+  - title
+
+properties:
+
+  id:
+    type: string
+
+  title:
+    type: string
+
+  description:
+    type: string
+
+  impact:
+    type: string
+
+  affected_modules:
+    type: array
+
+  owner:
+    type: string

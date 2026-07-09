@@ -1,0 +1,35 @@
+schema:
+  name: architecture-decision
+  version: "1.0"
+
+required:
+
+  - id
+  - title
+  - decision
+
+properties:
+
+  id:
+    type: string
+
+  title:
+    type: string
+
+  context:
+    type: string
+
+  alternatives:
+    type: array
+
+  decision:
+    type: string
+
+  consequences:
+    type: string
+
+  status:
+    type: string
+
+  date:
+    type: string

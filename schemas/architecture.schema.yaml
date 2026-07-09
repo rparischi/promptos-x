@@ -1,0 +1,34 @@
+schema:
+  name: architecture
+  version: "1.0"
+
+required:
+
+  - project
+  - overview
+  - architecture_style
+  - layers
+  - modules
+
+properties:
+
+  project:
+    type: string
+
+  overview:
+    type: string
+
+  architecture_style:
+    type: string
+
+  layers:
+    type: array
+
+  modules:
+    type: array
+
+  dependencies:
+    type: array
+
+  external_systems:
+    type: array

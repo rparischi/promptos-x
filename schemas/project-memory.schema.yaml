@@ -1,0 +1,29 @@
+schema:
+  name: project-memory
+  version: "1.0"
+
+required:
+
+  - date
+  - type
+  - description
+
+properties:
+
+  date:
+    type: string
+
+  type:
+    type: string
+
+  description:
+    type: string
+
+  author:
+    type: string
+
+  affected_modules:
+    type: array
+
+  related_decisions:
+    type: array

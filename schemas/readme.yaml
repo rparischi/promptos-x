@@ -1,0 +1,19 @@
+# PromptOS Schemas
+
+Os Schemas definem o contrato oficial dos documentos utilizados pelo PromptOS X.
+
+## Objetivos
+
+- Padronizar o conhecimento
+- Permitir validação automática
+- Facilitar integração entre diferentes IAs
+- Possibilitar geração automática de documentação
+- Preservar compatibilidade entre versões
+
+## Regras
+
+Todo documento do Project Brain deve seguir um Schema.
+
+Nenhuma informação estrutural deve ser armazenada sem um contrato definido.
+
+Os Schemas devem evoluir de forma compatível sempre que possível.
